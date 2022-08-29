@@ -13,7 +13,7 @@ const Search = (props) => {
         ) : (
           props.list.Search && (
             <div className="fs-3 fw-bold">
-              <p>Show your favorites Movies</p>
+              <p>SHOW YOUR FAVORITE MOVIES</p>
             </div>
           )
         )}

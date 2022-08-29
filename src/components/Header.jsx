@@ -15,7 +15,7 @@ const styles = {
     flex: 1,
     flexDirection: "column",
     flexWrap: "wrap",
-    alignItems: "flex-start", // if you want to fill rows left to right
+    alignItems: "flex-start",
     padding: 2,
   },
   row: {
