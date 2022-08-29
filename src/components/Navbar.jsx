@@ -23,7 +23,7 @@ const NavBar = (props) => {
 
   const getData = async () => {
     await axios.get(
-      `http://www.omdbapi.com/?apikey=a28eba38&s=${namaFilm}`
+      `https://www.omdbapi.com/?apikey=a28eba38&s=${namaFilm}`
     )
     .then(({ data }) => {
       props.handleMovieCollection(data);
