@@ -9,7 +9,7 @@ const About = (props) => {
   
   const getData = async () => {
     const res = await axios.get(
-      `http://www.omdbapi.com/?apikey=a28eba38&i=${props.imdbID}`
+      `https://www.omdbapi.com/?apikey=a28eba38&i=${props.imdbID}`
     );
     setList(res.data);
     setLoading(false);

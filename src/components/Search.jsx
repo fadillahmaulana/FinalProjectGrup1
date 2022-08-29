@@ -26,7 +26,7 @@ const Search = (props) => {
   const getData = async () => {
     console.log(props.judul, "========== judul ============");
     const res = await axios.get(
-      `http://www.omdbapi.com/?apikey=a28eba38&s=${namaFilm}`
+      `https://www.omdbapi.com/?apikey=a28eba38&s=${namaFilm}`
     );
     setList(res.data.Search);
   };

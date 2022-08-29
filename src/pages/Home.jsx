@@ -10,7 +10,7 @@ const Home = () => {
   useEffect(() => {
     async function getData() {
       const res = await axios.get(
-        `http://www.omdbapi.com/?apikey=a28eba38&s=avengers`
+        `https://www.omdbapi.com/?apikey=a28eba38&s=avengers`
       );
       setMovies(res.data.Search);
     }
